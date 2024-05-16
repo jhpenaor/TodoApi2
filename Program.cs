@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Cambio 01
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckles
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckleses
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
